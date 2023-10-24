@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{01581593-00CC-05E8-4BB5-DE9370206819}</ProjectGuid>
+    <ProjectGuid>{FFFC376E-19E9-E201-ECA2-BB819A8DBC04}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -880,63 +880,63 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
-      <Project>{B794B8F6-67AF-CFA2-70FE-E0031BEF1334}</Project>
+      <Project>{19E3B8B9-5F86-ED3A-123A-688B8B04FBBB}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{C858458B-FAE4-0DF5-DEF8-8933588C4BB1}</Project>
+      <Project>{231FA65B-6F8E-9C84-F3A8-3995783B7C12}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
-      <Project>{2C994299-D56F-0137-5694-C9F17A6C6C06}</Project>
+      <Project>{05DD6B6C-5AB8-5DCE-9016-81D1D6E870AD}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
-      <Project>{522282A4-ED08-03E9-3518-8A29051EDBBA}</Project>
+      <Project>{D1842519-6BB3-E007-0743-E22BB3D0654D}</Project>
       <Name>Unity.AI.Navigation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{4D61F92E-3A05-D38B-9ECD-34E21A744026}</Project>
+      <Project>{2B03CE63-B875-BC5F-7F3D-84AF20CFA29A}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{12171EDE-ACA2-69E1-E8C0-2802949DD181}</Project>
+      <Project>{0F265C17-B545-DFC2-A66C-9664937E2CE5}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{4175FC37-CA84-8EB6-BBC7-3A725EFBFEB2}</Project>
+      <Project>{85D5D63C-0B1B-3255-D268-AB2529D690DC}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{8D2E1315-D815-73DF-8D52-03E0A25E1FDA}</Project>
+      <Project>{6B04ABD2-72A4-8754-09FC-346885D65679}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
-      <Project>{3AF68F0C-6BE1-5444-948E-CC60B241DFE4}</Project>
+      <Project>{B978ACBB-096F-95B6-DE6F-DB31873D959B}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{AF1E7EDF-B1AC-9357-E8D2-99BCE54A8C87}</Project>
+      <Project>{523697EC-2434-BEB9-BAA4-9A2AE4CEC7EB}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
-      <Project>{29B810BB-F904-50F9-1D44-5FEC65E8137B}</Project>
+      <Project>{C5D2C936-88D0-17FB-56AC-86FFB19157A6}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{325F2EA1-853D-6F96-5AC0-FF192031AC89}</Project>
+      <Project>{AAABAD29-1276-ABE9-15F4-17D703D67ABE}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{AAC37154-B4C3-415A-650E-0078602C0FA1}</Project>
+      <Project>{FE782245-B72D-CADC-9A62-68A27FDF3F2B}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.Player.csproj">
-      <Project>{3E52B612-8C00-8D26-6B6C-40B71DB79F7D}</Project>
+      <Project>{72A7AA98-49EE-E174-8E34-B15C51DA826A}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{FA8A971C-ECD9-100B-C7AD-1DAA22A81D4D}</Project>
+      <Project>{9DC5CD9E-A00F-B0FC-80A4-1BE343E80209}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>

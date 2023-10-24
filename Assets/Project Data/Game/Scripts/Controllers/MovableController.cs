@@ -49,14 +49,15 @@ public class MovableController : MonoBehaviour
     public MovableObjectData Data { get; private set; }
 
     public Vector3 Position { get => transform.position; set => transform.position = value; }
-    public Vector3 Euler { get => transform.eulerAngles; set => transform.eulerAngles = value; }
+    public Vector3 Euler { get => transform.eulerAngles; set => transform.eulerAngles = new Vector3(0, value.y, 0); }
+    //public Vector3 Euler { get => transform.eulerAngles; set => transform.eulerAngles = value; }
     public Quaternion Rotation { get => transform.rotation; set => transform.rotation = value; }
 
     private FinishSnap finishSnap = new FinishSnap();
 
     private MaterialPropertyBlock propertyBlock;
     private List<Vector3> blockedDirections = new List<Vector3>();
-
+    private Vector3 originalPosition; // Исходная позиция объекта
     void Awake()
     {
         propertyBlock = new MaterialPropertyBlock();
@@ -70,6 +71,7 @@ public class MovableController : MonoBehaviour
         IsTilting = false;
         isCollisionMovement = false;
         IsWaitingForOtherCarToPass = false;
+        originalPosition = transform.position;
     }
 
     public void SetInteractable(bool interactable)
@@ -296,9 +298,10 @@ public class MovableController : MonoBehaviour
         Position = Position + movementDirection * speed * Time.deltaTime;
     }
 
-
+    
     void OnCollisionEnter(Collision collision)
     {
+        
         if (IsFinishing)
             return;
         if (!isMoving)
@@ -315,10 +318,10 @@ public class MovableController : MonoBehaviour
         }
         else if (collision.collider.tag != "WorldSpaceButton")
         {
-            MovableController movable = collision.transform.GetComponent<MovableController>();
-            if (movable != null && !movable.IsTilting && !movable.isMoving)
+            MovableController _movable = collision.transform.GetComponent<MovableController>();
+            if (_movable != null && !_movable.IsTilting && !_movable.isMoving)
             {
-                movable.Collide(movementDirection);
+                _movable.Collide(movementDirection);
 
             }
         }
@@ -374,11 +377,16 @@ public class MovableController : MonoBehaviour
     public void Collide(Vector3 direction)
     {
         IsTilting = true;
-        StartCoroutine(Collision(xRotation: (Euler.y == 90 || Euler.y == 270 ? 1 : -1) * direction.z, zRotation: (Euler.y == 180 || Euler.y == 0 ? 1 : -1) * direction.x));
+
+        
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, Euler.y, transform.rotation.eulerAngles.z);
+        
+        
+
+          
     }
 
-
-    private IEnumerator Collision(float xRotation, float zRotation)
+        private IEnumerator Collision(float xRotation, float zRotation)
     {
         Vector3 euler = collidablePart.localEulerAngles;
         Vector3 initialRotation = collidablePart.localEulerAngles;
