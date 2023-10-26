@@ -111,6 +111,7 @@
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Interfaces\ISavable.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Persistant\Files\ProductKeyType.cs" />
     <Compile Include="Assets\Project Data\Game\Scripts\NoAdsButton.cs" />
+    <Compile Include="Assets\OUTER\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Security\SafeInt.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Modules\GameSettingsPrefs\RequireSettingAttribute.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Property Drawer\ConstArrayAttribute.cs" />
@@ -167,7 +168,6 @@
     <Compile Include="Assets\Project Data\Watermelon Core\Extra Components\Services\Firebase\FirebaseAnalyticsController.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Extra Components\Modules\Settings Panel\Scripts\Buttons\SettingsButtonBase.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Modules\Advertisement\Example\AdsManagerExampleScript.cs" />
-    <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Custom Editor\Attributes\DrawerAttributes\ShowNonSerializedFieldAttribute.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Utils\Bezier.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Persistant\Customized Modules\Pool Manager\PoolCache.cs" />
@@ -296,7 +296,7 @@
     <None Include="Assets\Project Data\Watermelon Core\Core\Shaders\Includes\Lighting.hlsl" />
     <None Include="Assets\Project Data\Watermelon Core\Core\Shaders\Includes\Shadow Atten\Shadow Atten.hlsl" />
     <None Include="Assets\Project Data\Watermelon Core\Core\Shaders\Includes\Light Dir\Light Dir.hlsl" />
-    <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+    <None Include="Assets\OUTER\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\Project Data\Game\Fonts\OpenSans\LICENSE-2.0.txt" />
     <None Include="Assets\Project Data\Watermelon Core\Core\Other Resources\Script Templates\81-C# Script-NewBehaviourScript.cs.txt" />
     <None Include="Assets\Project Data\Watermelon Core\Core\Shaders\Includes\Light Color\Light Color.hlsl" />

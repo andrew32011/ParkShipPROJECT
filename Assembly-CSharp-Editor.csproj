@@ -61,7 +61,6 @@
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Custom Editor\Editor\ExtendedEditor.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Property Drawer\Editor\ConstArrayDrawer.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Custom Editor\Editor\Drawers\FieldDrawers\FieldDrawer.cs" />
-    <Compile Include="Assets\LowPolyWater_Pack\Scripts\Editor\GeneratePlane.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Custom Editor\Editor\Drawers\PropertyDrawers\PropertyDrawer.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Watermelon Editor\Editor\LevelEditorBase.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Editor Coroutines\Editor\EditorCoroutines.cs" />
@@ -187,6 +186,7 @@
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Modules\Initialiser\Scripts\Editor\ScriptableObjectInitModuleEditor.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Extra Components\Tools\Smart Screenshot Taker\Editor\SmartScreenshotTakerWindow.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Modules\Initialiser\Scripts\Editor\PrefabInitModuleEditor.cs" />
+    <Compile Include="Assets\OUTER\LowPolyWater_Pack\Scripts\Editor\GeneratePlane.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Extra Components\Helpers\Smart Selector\Editor\SelectorAnchorAttribute.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Modules\Advertisement\Scripts\Editor\AdsPostBuild.cs" />
     <Compile Include="Assets\Project Data\Watermelon Core\Core\Default Scripts\Extended Editor\Custom Editor\Editor\Drawers\PropertyDrawConditions\HideIfPropertyDrawCondition.cs" />
